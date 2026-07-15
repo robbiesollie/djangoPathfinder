@@ -1,0 +1,10 @@
+#ignore pycache
+__pycache__/
+#also ignore .pyc just in case
+*.pyc
+#no db lol
+db.sqlite3
+#ignore venv
+.venv
+#don't commit settings.py, just in case, maybe in future draw secure options from .env file but just for now
+settings.py
